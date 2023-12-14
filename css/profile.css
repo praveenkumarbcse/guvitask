@@ -1,0 +1,48 @@
+/* Profile page styles */
+
+/* Set the width of the columns */
+.col-md-3,
+.col-md-9 {
+  padding: 15px;
+}
+
+/* Add a border to the left column */
+.col-md-3 {
+  border-right: 1px solid #ccc;
+}
+
+/* Center the profile image */
+.profile-img {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Style the profile details section */
+.profile-details {
+  margin-top: 30px;
+}
+
+/* Style the profile details labels */
+.profile-details label {
+  font-weight: bold;
+}
+
+/* Style the profile details values */
+.profile-details p {
+  margin-bottom: 0;
+}
+
+/* Style the update profile button */
+.update-profile-btn {
+  margin-top: 30px;
+}
+
+/* Style the error messages */
+.error {
+  color: #ff0000;
+  font-weight: bold;
+}

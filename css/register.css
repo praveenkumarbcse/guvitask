@@ -1,0 +1,55 @@
+/* Center the form vertically on the page */
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Add some margin to the form */
+  form .form-container {
+    margin: 20px;
+  }
+  
+  /* Style the form inputs */
+  form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form button */
+  form button {
+    background-color: #7dcae8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form links */
+  form a {
+    color: #007bff;
+  }
+  
+  /* Style the form error messages */
+  form .error {
+    color: #dc3545;
+  }
+  
+  /* Make the form responsive */
+  @media (max-width: 576px) {
+    form {
+      height: auto;
+    }
+  
+    form .form-container {
+      width: 100%;
+    }
+  }
+  

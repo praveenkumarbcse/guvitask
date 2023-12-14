@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Profile</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 mx-auto">
+				<div class="card mt-5">
+					<div class="card-header">
+						<h4>User Profile</h4>
+					</div>
+					<div class="card-body">
+						<form id="updateProfileForm">
+							<div class="form-group">
+								<label for="name">Name:</label>
+								<input type="text" name="name" id="name" placeholder="Your name" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="email">Email:</label>
+								<input type="email" name="email" id="email" placeholder="abc@gmail.com" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="age">Age:</label>
+								<input type="number" name="age" id="age" placeholder="Your age here" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="dob">Date of Birth:</label>
+								<input type="date" name="dob" id="dob" class="form-control">
+							</div>
+							<div class="form-group">
+								<label for="contact">Contact:</label>
+								<input type="text" name="contact" id="contact" placeholder="your phone number"class="form-control">
+							</div>
+							<button type="submit" class="btn btn-primary">Update</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
